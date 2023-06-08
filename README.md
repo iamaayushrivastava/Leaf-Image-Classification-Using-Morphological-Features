@@ -1,7 +1,7 @@
 # Leaf-Image-Classification-Using-Morphological-Features
 
 ## About
-The process of identifying plants by analyzing their leaves using digital image processing techniques involves examining and extracting various motphological features such as shape, color, and texture. This approach leverages technology to automate and streamline the identification process.
+The process of identifying plants by analyzing their leaves using digital image processing techniques involves examining and extracting various morphological features such as shape, color, and texture. This approach leverages technology to automate and streamline the identification process.
 
 Shape: The shape of a plant's leaves is an essential characteristic that can help in distinguishing different plant species. Leaves come in various forms, including round, oval, lanceolate, palmate, and lobed. By analyzing the shape of a leaf captured in a digital image, it becomes possible to compare it with a database of known leaf shapes to identify the plant species.
 
