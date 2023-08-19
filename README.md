@@ -9,4 +9,4 @@ Color: The color of a plant's leaves can vary significantly and is another vital
 
 Texture: The texture of a leaf refers to its surface characteristics, such as smoothness, roughness, veins, or patterns. Texture features extracted from digital leaf images can be analyzed to identify unique patterns or textures associated with specific plant species. This information can be compared with a database of known leaf textures to aid in the identification process.
 
-By combining these three features—shape, color, and texture—through digital image processing techniques, it becomes possible to develop algorithms and systems that can automatically identify plants based on leaf characteristics.
+By combining these three features - shape, color, and texture through digital image processing techniques, it becomes possible to develop algorithms and systems that can automatically identify plants based on leaf characteristics.
