@@ -12,11 +12,11 @@ The assessment of the performance of these classifiers was evaluated by extracti
 
 The morphology of a leaf refers to its external physical structure, shape, color and various characteristics.
 
-* Shape: The shape of a plant's leaves is an essential characteristic that can help in distinguishing different plant species. Leaves come in various forms, including round, oval, lanceolate, palmate, and lobed. By analyzing the shape of a leaf captured in a digital image, it becomes possible to compare it with a database of known leaf shapes to identify the plant species.
+* **Shape:** The shape of a plant's leaves is an essential characteristic that can help in distinguishing different plant species. Leaves come in various forms, including round, oval, lanceolate, palmate, and lobed. By analyzing the shape of a leaf captured in a digital image, it becomes possible to compare it with a database of known leaf shapes to identify the plant species.
 
-* Color: The color of a plant's leaves can vary significantly and is another vital feature for identification. Leaves can be green, yellow, red, purple, or a combination of colors. Digital image processing techniques enable the extraction of color information from leaf images, allowing for color-based analysis and comparison with reference data. This helps in narrowing down the potential plant species.
+* **Color:** The color of a plant's leaves can vary significantly and is another vital feature for identification. Leaves can be green, yellow, red, purple, or a combination of colors. Digital image processing techniques enable the extraction of color information from leaf images, allowing for color-based analysis and comparison with reference data. This helps in narrowing down the potential plant species.
 
-* Texture: The texture of a leaf refers to its surface characteristics, such as smoothness, roughness, veins, or patterns. Texture features extracted from digital leaf images can be analyzed to identify unique patterns or textures associated with specific plant species. This information can be compared with a database of known leaf textures to aid in the identification process.
+* **Texture:** The texture of a leaf refers to its surface characteristics, such as smoothness, roughness, veins, or patterns. Texture features extracted from digital leaf images can be analyzed to identify unique patterns or textures associated with specific plant species. This information can be compared with a database of known leaf textures to aid in the identification process.
 
 By combining these three features - shape, color, and texture through digital image processing techniques, it becomes possible to develop algorithms and systems that can automatically identify plants based on leaf characteristics.
 
@@ -35,7 +35,7 @@ It is recommended to use [Visual Studio Code (version 1.81)](https://code.visual
 
 * [FeatureExtraction.ipynb](FeatureExtraction.ipynb): It contains the create_dataset() function which performs image pre-processing and feature extraction on the dataset (extract features from each image within a directory containing multiple leaf images). The ultimate goal is to store the extracted features in a CSV file.
 
-* [ClassifyLeaves.ipynb](ClassifyLeaves.ipynb): Using the extracted features as inputs to the model and classifying them using various ML classifiers which includes Artificial Neural Network (ANN), Decision Tree (DT), Gaussian Naïve Bayes (GNB), K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and Support Vector Machine (SVM). 
+* [ClassifyLeaves.ipynb](ClassifyLeaves.ipynb): Using the extracted features as inputs to the model and classifying them using various ML classifiers which includes *Artificial Neural Network (ANN), Decision Tree (DT), Gaussian Naïve Bayes (GNB), K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and Support Vector Machine (SVM)*. 
 
 ## Methodology
 
@@ -60,6 +60,6 @@ Various types of leaf features were extracted from the pre-processed image which
 ### 3. ML Model building and testing
 
   (a) Sampling and splitting of the dataset into training and testing sets with an 80:20 ratio.<br>
-  (b) Applying Machine Learning models across the dataset to classify the plant species.<br>
   (b) Features were then scaled using [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html).<br>
-  (c) Also parameter tuning was done to find the appropriate hyperparameters of the model using [GridSearchCV](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html).
+  (c) Also parameter tuning was done to find the appropriate hyperparameters of the model using [GridSearchCV](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html).<br>
+  (d) Applying Machine Learning models across the dataset to classify the plant species.
