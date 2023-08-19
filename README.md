@@ -53,7 +53,7 @@ The following steps were followed for pre-processing the image:
 
 Various types of leaf features were extracted from the pre-processed image which are listed as follows:
 
-  1. Shape-based features: It includes features like physiological length, physiological width, area, perimeter, aspect ratio, rectangularity, circularity, convex_area, convex_ratio, etc.
+  1. Shape-based features: It includes features like physiological length, physiological width, area, perimeter, aspect ratio, rectangularity, circularity, convex area, convex ratio, etc.
   2. Color-based features: It includes mean and standard deviations of R,G and B channels.
   3. Texture-based features: It includes features like contrast, correlation, inverse difference moments, entropy, etc.
 
