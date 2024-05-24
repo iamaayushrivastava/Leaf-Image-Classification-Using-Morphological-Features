@@ -6,6 +6,7 @@ Identification of plants by analyzing their leaves using digital image processin
 ## Overview
 
 This project aims to explore various classification techniques for plant leaf identification. A dataset of **874 plant species, with 250 images per category**, was collected. The goal was to classify these plant categories based on leaf images. The paper discusses different plant recognition and classification methods, comparing their implementation and performance. Six classical machine learning algorithms, including **Artificial Neural Network (ANN), Decision Tree (DT), Gaussian Naïve Bayes (GNB), K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and Support Vector Machine (SVM)** were employed for classification.
+
 The assessment of the performance of these classifiers was evaluated by extracting morphological features such as physiological length, physiological width, centroid, area, diameter, perimeter, rectangularity, rectangularity, sphericity, aspect ratio, area convexity, circularity, along with colour-based and texture-based features. The primary goal was to identify an optimal and effective machine-learning strategy for classifying leaf images.
 
 ## Morphology
